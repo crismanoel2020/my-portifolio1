@@ -1,3 +1,31 @@
 .intro{
-    background-color: rgb(248, 59, 87);
+    background-color: white;
+    display: flex;
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            // margin: 140px;
+            background-color: rgb(71, 220, 247);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            padding: 30px; //Alinhar a imagem para baixo, pra ficar perto do rodape da outra pagina
+            justify-content: center; /* Alinhar foto/imagem ao centro */
+            float: right;
+            .img{
+                height: 100%;
+            }
+        }
+        
+    }
+
+    .right{
+        flex: 0.5;
+        
+    }
 }

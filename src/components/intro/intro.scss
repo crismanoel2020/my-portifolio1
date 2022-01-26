@@ -10,15 +10,16 @@
             width: 700px;
             height: 700px;
             // margin: 140px;
-            background-color: rgb(71, 220, 247);
+            background-color: rgb(10, 150, 243);
             border-radius: 50%;
             display: flex;
             align-items: center;
-            padding: 30px; //Alinhar a imagem para baixo, pra ficar perto do rodape da outra pagina
+            padding: 40px; //Alinhar a imagem para baixo, pra ficar perto do rodape da outra pagina
             justify-content: center; /* Alinhar foto/imagem ao centro */
             float: right;
             .img{
                 height: 100%;
+                
             }
         }
         
@@ -26,6 +27,47 @@
 
     .right{
         flex: 0.5;
-        
+        position: relative;
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // margin: 12px;
+
+            h1{
+                font-size: 32px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 36px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            h3{
+                font-size: 28px;
+
+                span{
+                    font-size: inherit;
+                    color: crimson;
+                }
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+            @keyframes arrowBlink{
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
     }
 }

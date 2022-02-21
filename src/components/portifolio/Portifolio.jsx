@@ -34,7 +34,7 @@ export default function Portifolio(){
             id: "marca",
             title: "Marca",
         },
-    ]
+    ];
 
     useEffect(()=>{
         switch(selected){
@@ -84,5 +84,5 @@ export default function Portifolio(){
                 ))}
             </div>
         </div>
-    )
+    );
 }

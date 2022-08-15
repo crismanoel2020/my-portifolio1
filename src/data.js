@@ -13,7 +13,7 @@ export const destaquePortifolio = [
     },
     {
         id: 3,
-        title: "E-commerce Design Web",
+        title: "E-commerce Web",
         img:
         "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg"
     },
@@ -52,7 +52,7 @@ export const webPortifolio = [
     },
     {
         id: 3,
-        title: "E-commerce Design Web",
+        title: "E-commerce Web",
         img:
         "https://cdn.pixabay.com/photo/2015/05/19/07/44/browser-773215_960_720.png"
     },
@@ -83,7 +83,7 @@ export const webPortifolio = [
 export const mobilePortifolio = [
     {
         id: 1,
-        title: "Mobile App Midia Social",
+        title: "Mobile Midia Social",
         img:
         "https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg"
     },
@@ -95,13 +95,13 @@ export const mobilePortifolio = [
     },
     {
         id: 3,
-        title: "Mobile E-commerce Design Web",
+        title: "Mobile E-commerce  Web",
         img:
         "https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg"
     },
     {
         id: 4,
-        title: "Mobile App para Relax Web",
+        title: "Mobile App Web",
         img:
         "https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg"
     },
@@ -113,7 +113,7 @@ export const mobilePortifolio = [
     },
     {
         id: 6,
-        title: "Mobile App Banking Web",
+        title: "Mobile Banking Web",
         img:
         "https://cdn.pixabay.com/photo/2018/01/28/10/59/internet-3113279_960_720.jpg"
     },
@@ -122,7 +122,7 @@ export const mobilePortifolio = [
 export const designPortifolio = [
     {
         id: 1,
-        title: "Design App Midia Social",
+        title: "Design Midia Social",
         img:
         "https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
     },
@@ -134,13 +134,13 @@ export const designPortifolio = [
     },
     {
         id: 3,
-        title: "Design E-commerce Design Web",
+        title: "Design E-commerce Web",
         img:
         "https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
     },
     {
         id: 4,
-        title: "Design App para Relax Web",
+        title: "Design para Web",
         img:
         "https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
     },
@@ -152,7 +152,7 @@ export const designPortifolio = [
     },
     {
         id: 6,
-        title: "Design App Banking Web",
+        title: "Design Banking Web",
         img:
         "https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_960_720.jpg"
     },
